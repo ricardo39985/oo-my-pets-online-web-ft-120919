@@ -29,7 +29,7 @@ class Owner
     # binding.pry
   end
   def buy_cat(cat)
-    Cat.new(cat)
+    Cat.new(cat, self)
     Cat.all.length
   end
 
