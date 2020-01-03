@@ -26,5 +26,6 @@ class Owner
   end
   def dogs
     Dog.all.find_all{|cat|cat.owner.name==self.name}
+    binding.pry
   end
 end
