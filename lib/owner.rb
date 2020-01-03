@@ -28,7 +28,7 @@ class Owner
     Dog.all.find_all{|dog|dog.owner==self}
     # binding.pry
   end
-  def buy_cat
+  def buy_cat(cat)
 
   end
 
