@@ -1,10 +1,9 @@
 class Owner
   # code goes here
   @@all = []
-  attr_accessor :name
-  def initialize(name)
-    @name = name
+  attr_accessor :name, :species
+  def initialize(species)
+    @species = species
     @@all << self
-
   end
 end
