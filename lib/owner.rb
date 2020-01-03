@@ -22,6 +22,6 @@ class Owner
   end
   def cats
     Cat.all.find_all{|cat|cat.owner.name==self.name}
-    binding.pry
+    # binding.pry
   end
 end
