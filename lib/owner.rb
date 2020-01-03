@@ -30,7 +30,10 @@ class Owner
   end
   def buy_cat(cat)
     Cat.new(cat, self)
-    Cat.all.length
+    # Cat.all.length
+  end
+  def buy_dog(dog)
+
   end
 
 end
