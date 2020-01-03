@@ -47,6 +47,12 @@ class Owner
     cats.each { |cat|cat.owner = nil  }
     dogs.each { |dog|dog.owner = nil  }
   end
+  def list_pets
+    pets = []
+    pets << dogs
+    pets << cats
+    pets
+  end
 
 
 end
