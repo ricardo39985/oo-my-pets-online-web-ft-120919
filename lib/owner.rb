@@ -1,7 +1,7 @@
 class Owner
   # code goes here
   @@all = []
-  CATS = Cat.all
+  CAT = Cat.all
 
   attr_reader :species, :name
   def initialize(name)
