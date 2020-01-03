@@ -4,7 +4,9 @@ class Owner
   attr_accessor :name, :species
   def initialize(*name, species)
     @species = species
-    name? @name=name
+    if name
+      @name= name
+    end
     @@all << self
   end
   def name=(name)
