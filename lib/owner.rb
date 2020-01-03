@@ -28,3 +28,4 @@ class Owner
     Dog.all.select{|dog|dog.owner.name==self.name}
   end
 end
+binding.pry
