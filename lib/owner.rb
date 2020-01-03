@@ -21,7 +21,7 @@ class Owner
     @@all.clear
   end
   def cats
-    Cat.all.find_all{|cat|cat.owner.name==self.name}
+    Cat.all.find_all{|cat|cat.owner==self}
     # binding.pry
   end
   def dogs
