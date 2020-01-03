@@ -7,6 +7,6 @@ class Owner
     @@all << self
   end
   def name=(name)
-      @name = name
+      self.name = name
   end
 end
