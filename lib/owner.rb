@@ -29,7 +29,7 @@ class Owner
     # binding.pry
   end
   def buy_cat(cat)
-
+    cat
   end
 
 end
