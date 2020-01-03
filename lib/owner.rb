@@ -22,6 +22,5 @@ class Owner
     @@all.clear
   end
   def cats
-    CAT
   end
 end
