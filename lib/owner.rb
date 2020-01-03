@@ -8,5 +8,6 @@ class Owner
   end
   def name=(name)
       self.name = name
+      self.name
   end
 end
