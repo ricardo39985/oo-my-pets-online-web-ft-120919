@@ -2,7 +2,6 @@ require "pry"
 class Owner
   # code goes here
   @@all = []
-  CAT = []
   attr_reader :species, :name
   def initialize(name)
     @name = name
