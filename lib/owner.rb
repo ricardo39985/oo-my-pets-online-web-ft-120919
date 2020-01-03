@@ -26,7 +26,7 @@ class Owner
     # binding.pry
   end
   def dogs
-    Dog.all.select{|dog|dog.owner.name==self.name}
+    Dog.all.find_all{|dog|dog.owner.name==self.name}
     binding.pry
   end
 
