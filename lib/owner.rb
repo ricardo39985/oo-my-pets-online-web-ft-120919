@@ -49,9 +49,7 @@ class Owner
   end
   def list_pets
     pets = []
-    pets << dogs
-    pets << cats
-    pets
+    "I have #{dogs.length} dog(s), and #{cats.length} cat(s)."
   end
 
 
