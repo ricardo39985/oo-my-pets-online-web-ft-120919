@@ -36,7 +36,7 @@ class Owner
     Dog.new(dog, self)
   end
   def walk_dogs
-    binding.pry
+    Dog.all.find_all{|dog|dog.owner==self}.each { |dog|  dog.mood = 'happy'}
   end
 
 end
