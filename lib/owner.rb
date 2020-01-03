@@ -22,18 +22,18 @@ class Owner
   end
   def cats
     Cat.all.find_all{|cat|cat.owner==self}
-    # binding.pry
+
   end
   def dogs
     Dog.all.find_all{|dog|dog.owner==self}
-    # binding.pry
+
   end
   def buy_cat(cat)
     Cat.new(cat, self)
-    # Cat.all.length
+
   end
   def buy_dog(dog)
-
+    Dog.new(dog, self)
   end
 
 end
