@@ -27,4 +27,5 @@ class Owner
   def dogs
     Dog.all.select{|dog|dog.owner.name==self.name}
   end
+  binding.pry
 end
