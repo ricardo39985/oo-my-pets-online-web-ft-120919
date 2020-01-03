@@ -48,7 +48,6 @@ class Owner
     dogs.each { |dog|dog.owner = nil  }
   end
   def list_pets
-    pets = []
     "I have #{dogs.length} dog(s), and #{cats.length} cat(s)."
   end
 
